@@ -27,7 +27,7 @@ public class ComputeChange {
         return countStates(den, sum, amount, 0);
     }
 
-    public static int evaluate(int[] amount, ArrayList<Integer> den) { //0-array.pikkus , infinite (while)
+    public static int evaluate(int[] amount, ArrayList<Integer> den) {
         int sum = 0;
         for (int i = 0; i < den.size(); i++) {
             sum += amount[i] * den.get(i);
